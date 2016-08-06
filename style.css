@@ -1,0 +1,134 @@
+@font-face {
+   font-family: PTSans; /* Имя шрифта */
+   src: url(fonts/PT_Sans-Web-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+   font-family: PTSans; /* Имя шрифта */
+   src: url(fonts/PT_Sans-Web-Bold.ttf); /* Путь к файлу со шрифтом */
+   font-weight:bold;
+}
+@font-face {
+   font-family: PTSans; /* Имя шрифта */
+   src: url(fonts/PT_Sans-Web-BoldItalic.ttf); /* Путь к файлу со шрифтом */
+   font-weight:bold;
+   font-style:italic;
+}
+@font-face {
+   font-family: PTSans; /* Имя шрифта */
+   src: url(fonts/PT_Sans-Web-Italic.ttf); /* Путь к файлу со шрифтом */
+   font-style:italic;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-image:url('pic/square_bg.png');
+}
+#root_tbl
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td
+{
+    margin:0; padding:0;
+}
+#headspace_td
+{
+    height: 40px;
+}
+#bottspace_td
+{
+    height: 30px;
+}
+#lspace_td, #rspace_td
+{
+    width:13%;
+}
+#centerspace_td
+{
+    width:74%;
+    min-width: 500px;
+    max-width:1366px;
+}
+#main_blk
+{
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px #949494 inset;
+    border:3px solid #93ffc2;
+}
+#logoimg_blk
+{
+    width:368px;
+    margin:50px auto 40px auto;
+}
+#contactbar_blk
+{
+    text-align:center;
+    font-family:PTSans;
+    font-size:16px;
+    height:26px;
+    width:100%;
+    border-bottom: 3px solid #93ffc2;
+}
+a
+{
+    color: #003b1a;
+}
+#content_blk
+{
+    width:auto;
+    padding:20px 30px 20px 30px;
+    font-family:PTSans;
+    font-size:18px;
+}
+#content_blk h4
+{
+    margin: 0px 0px 0px 4px; padding:0;
+    font-weight:normal;
+    font-size:20px;
+}
+#content_blk h3
+{
+    margin: 18px 0px 8px 4px; padding:0;
+    font-weight:bold;
+    color:#417e5b;
+    font-size:22px;
+}
+p
+{
+    margin:4px;
+}
+ul
+{
+    margin:0px; padding-left:30px;
+}
+#pricelist_tbl
+{
+    margin-left:20px;
+    border-collapse: collapse;
+}
+#pricelist_tbl td
+{
+    border-bottom:1px dotted grey;
+}
+#pricelist_tbl td.pricelist_item
+{
+    padding-right:50px;
+}
+#pricelist_tbl td.pricelist_price
+{
+    font-weight:bold;
+    text-align:right;
+    padding-top:5px;
+}
+#footer_blk
+{
+    background-color: #93ffc2;
+    width:auto;
+    text-align:center;
+    font-family:PTSans;
+    font-size:14px;
+    padding-top:4px;
+    height:21px;
+}
